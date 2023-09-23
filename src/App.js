@@ -11,7 +11,7 @@ class App extends Component {
     this.setState(
         {
           alunos: alunos.filter((aluno, i)=>{
-            return i != index;
+            return i !== index;
           })
         }
     );
